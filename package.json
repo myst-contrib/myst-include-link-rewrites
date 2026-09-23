@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "MyST plugin that fixes relative links and images in {include}d files like your README.",
   "keywords": ["myst", "mystmd", "jupyter-book", "plugin", "readme", "include"],
-  "homepage": "https://myst-contrib.github.io/myst-readme-link-rewrites/",
+  "homepage": "https://contrib.mystmd.org/myst-readme-link-rewrites/",
   "bugs": "https://github.com/myst-contrib/myst-readme-link-rewrites/issues",
   "repository": {
     "type": "git",
