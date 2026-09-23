@@ -8,7 +8,7 @@ import plugin from './index.mjs';
 
 // repo/            <- .git, README.md, LICENSE, src/
 //   docs/          <- myst.yml, index.md (includes ../README.md), guide.md
-const repo = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'readme-links-')));
+const repo = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'include-links-')));
 for (const f of ['.git/HEAD', 'LICENSE', 'src/a.py', 'docs/guide.md', 'docs/logo.png', 'docs/my notes.md']) {
   fs.mkdirSync(path.dirname(path.join(repo, f)), { recursive: true });
   fs.writeFileSync(path.join(repo, f), '');

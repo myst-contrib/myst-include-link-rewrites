@@ -1,6 +1,7 @@
-# MyST README Link Rewrites
+# MyST Include Link Rewrites
 
-A MyST plugin that fixes relative links and images in files you `{include}` into your docs, so one README works both on GitHub and in your documentation.
+A MyST plugin that fixes relative links and images in files you `{include}` into your docs, so the same file works both on GitHub and in your documentation.
+The most common use is a README, but it works for any included file.
 
 ![A README included into a docs page](docs/images/include.svg)
 
@@ -27,7 +28,7 @@ Add the plugin to your `myst.yml`, and set `project.github` so links outside you
 project:
   github: https://github.com/org/repo
   plugins:
-    - https://github.com/myst-contrib/myst-readme-link-rewrites/releases/latest/download/index.mjs
+    - https://github.com/myst-contrib/myst-include-link-rewrites/releases/latest/download/index.mjs
 ```
 
 Then include your README from a docs page:

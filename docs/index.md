@@ -1,5 +1,5 @@
 ---
-title: myst-readme-link-rewrites
+title: myst-include-link-rewrites
 ---
 
 This page is the repository's `README.md`, pulled in with `{include}`.

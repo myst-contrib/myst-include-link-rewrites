@@ -2,9 +2,9 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/myst-contrib/myst-contrib.github.io/main/docs/footer.yml
 project:
-  id: myst-readme-link-rewrites
-  title: myst-readme-link-rewrites
-  github: https://github.com/myst-contrib/myst-readme-link-rewrites
+  id: myst-include-link-rewrites
+  title: myst-include-link-rewrites
+  github: https://github.com/myst-contrib/myst-include-link-rewrites
   plugins:
     - ../src/index.mjs
   toc:
@@ -15,4 +15,4 @@ project:
 site:
   template: book-theme
   options:
-    logo_text: myst-readme-link-rewrites
+    logo_text: myst-include-link-rewrites

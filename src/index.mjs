@@ -74,7 +74,7 @@ function walk(node, dir, ctx) {
 }
 
 const includeLinksTransform = {
-  name: 'readme-link-rewrites',
+  name: 'include-link-rewrites',
   doc: 'Re-resolves relative links and images in {include}d files against the included file.',
   stage: 'document',
   plugin: () => (tree, file) => {
@@ -96,6 +96,6 @@ const includeLinksTransform = {
 };
 
 export default {
-  name: 'README link rewrites',
+  name: 'Include link rewrites',
   transforms: [includeLinksTransform],
 };
