@@ -1,0 +1,28 @@
+{
+  "name": "myst-readme-link-rewrites",
+  "version": "0.1.0",
+  "description": "MyST plugin that fixes relative links and images in {include}d files like your README.",
+  "keywords": ["myst", "mystmd", "jupyter-book", "plugin", "readme", "include"],
+  "homepage": "https://myst-contrib.github.io/myst-readme-link-rewrites/",
+  "bugs": "https://github.com/myst-contrib/myst-readme-link-rewrites/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myst-contrib/myst-readme-link-rewrites.git"
+  },
+  "license": "MIT",
+  "author": "Jupyter Book Team",
+  "type": "module",
+  "exports": "./src/index.mjs",
+  "files": ["src/index.mjs"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "docs": "cd docs && myst build --html",
+    "docs:live": "cd docs && myst start"
+  },
+  "devDependencies": {
+    "mystmd": "^1.11.0"
+  }
+}
